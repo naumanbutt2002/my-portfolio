@@ -1,10 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
+import "@mantine/core/styles.css";
 import './App.css';
+import HomePage from './Components/HomePage';
+import { MantineProvider } from '@mantine/core';
 
 function App() {
   return (
-    <h1 className='text-red-500'> React App</h1>
+    <MantineProvider >
+    <HomePage/>
+    </MantineProvider>
   );
 }
 
