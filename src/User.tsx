@@ -3,4 +3,43 @@ const Info={
     stack:["Associate Software Engineer","Flutter Developer",  "Competitive Programmer", "Open Source Contributor","Full Stack Web Developer"],
     bio:"I'm a passionate Associate Software Engineer skilled in mobile app development, and full-stack development with the MERN stack, with a strong passion for creating user-friendly applications and a commitment to continuous improvement. Let's connect and create something amazing together!"
 }
-export {Info}
+const ProjectInfo=[
+    {
+        title:"Car Rental App",
+        desc: "The Car Rental Application is a comprehensive mobile solution for car rental services, developed using Flutter, Firebase, Bloc, and Clean Architecture. The application provides a seamless and intuitive interface for users to manage car rentals. It also integrates OpenStreetMaps for enhanced mapping and location-based services, ensuring a superior user experience. This application can be easily adapted for other rental services beyond cars. It allows users to seamlessly manage car rentals, including listing cars and navigation. It provides a user-friendly interface that makes navigating and using the app straightforward and efficient. It incorporates OpenStreetMaps for accurate and detailed mapping, enabling users to find car locations and directions with ease.",
+        image:"CarsRental.png",
+        live:false,
+        technologies:["Flutter","Firebase CLI", "Open Street Maps","Bloc","Clean Architecture"],
+        link:"https://github.com/naumanbutt2002/car_rental_app",
+        github:"https://github.com/naumanbutt2002/car_rental_app"
+    },
+    {
+        title:"Shop App ",
+        desc: "The Shop App Flutter is a fully functional e-commerce application developed using Flutter, Provider, and Dart. The application features a sleek and intuitive UI for browsing products, adding them to the cart, and managing orders. The app architecture is designed with scalability in mind, making it easy to extend and adapt for future features. It provides product listing by browsing a wide range of products with detailed descriptions and images. User can add products to your cart, update quantities, and remove items as needed. User can view detailed information about each product, including images, descriptions, and pricing. It provides efficient state management across the app using the Provider package.",
+        image:"shopping.png",
+        live:false,
+        technologies:["Flutter","Provider", "Dart"],
+        link:"https://github.com/naumanbutt2002/shop_app_flutter",
+        github:"https://github.com/naumanbutt2002/shop_app_flutter"
+    },
+    {
+        title:"MERN Authentication",
+        desc: "The MERN Auth web application is a ready-to-use authentication solution built with the MERN stack (MongoDB, Express, React, and Node.js), offering key features like secure user sign-up, login, and logout through local accounts or Google authentication. It includes essential pages such as Sign In, Sign Up, Profile, Home, and About, with user authentication managed via JWT for secure access. The front end is developed using React with React Router for seamless navigation, while the back end uses Express.js to handle server logic and API communication. Data is efficiently stored in MongoDB and managed through Mongoose, with Firebase integrated for image hosting. Protected routes ensure that only authenticated users can access sensitive data, making this app an ideal foundation for secure web applications.",
+        image:"mern_auth.png",
+        live:false,
+        technologies:["React","MongoDB","Firebase","React Router","Express"],
+        link:"https://github.com/naumanbutt2002/mern-auth",
+        github:"https://github.com/naumanbutt2002/mern-auth"
+    },
+    {
+        title:"Point of Sale",
+        desc: "Introducing our C#.Net-based Point of Sale (POS) Desktop App, a comprehensive solution designed to enhance transaction efficiency and streamline business operations. With a user-friendly interface, the app offers robust inventory management and an array of essential functionalities. Users can log in as admins or employees, access an intuitive admin panel, and manage CRUD operations for products, suppliers, customers, and employees. The app also features detailed bill management, a dedicated customer panel for employees, seamless product purchasing, and receipt generation, empowering businesses to elevate customer experiences and optimize their sales processes.",
+        image:"POS.png",
+        live:false,
+        technologies:["C#",".NET","MS SQL","Custom Base Collection", "Visual Studio"],
+        link:"https://github.com/naumanbutt2002/POS_Point-of-Sale",
+        github:"https://github.com/naumanbutt2002/POS_Point-of-Sale"
+    },
+    
+]
+export {Info, ProjectInfo};
