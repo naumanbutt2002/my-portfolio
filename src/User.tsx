@@ -9,7 +9,7 @@ const ProjectInfo=[
         desc: "The Car Rental Application is a comprehensive mobile solution for car rental services, developed using Flutter, Firebase, Bloc, and Clean Architecture. The application provides a seamless and intuitive interface for users to manage car rentals. It also integrates OpenStreetMaps for enhanced mapping and location-based services, ensuring a superior user experience. This application can be easily adapted for other rental services beyond cars. It allows users to seamlessly manage car rentals, including listing cars and navigation. It provides a user-friendly interface that makes navigating and using the app straightforward and efficient. It incorporates OpenStreetMaps for accurate and detailed mapping, enabling users to find car locations and directions with ease.",
         image:"CarsRental.png",
         live:false,
-        technologies:["Flutter","Firebase CLI", "Open Street Maps","Bloc","Clean Architecture"],
+        technologies:["Flutter", "Open Street Maps","Bloc","Firebase CLI","Clean Architecture"],
         link:"https://github.com/naumanbutt2002/car_rental_app",
         github:"https://github.com/naumanbutt2002/car_rental_app"
     },
@@ -42,4 +42,78 @@ const ProjectInfo=[
     },
     
 ]
-export {Info, ProjectInfo};
+const SkillInfo = [
+    {
+        title: "Frontend",
+        skills: ["Flutter","Jetpack Compose","C Sharp","HTML", "CSS", "JavaScript", "React JS", "Tailwind CSS", "Bootstrap",
+        ]
+    },
+    {
+        title: "Backend",
+        skills: [ "Node JS", "Express JS", "MS SQL", "MongoDB", "Firebase"]
+    },
+    {
+        title: "Languages",
+        skills: ["C", "C++", "Dart","Kotlin", "Python", "TypeScript"]
+    },
+    {
+        title: "Tools",
+        skills: ["Git", "Github", "VS Code", "MongoDB Compass", "Postman", "Android Studio"]
+    }
+]
+
+const ExperienceInfo = [
+    {
+        role: "UI/UX Designer",
+        company: "Health Bridge",
+        date: "Nov 2023 - April 2024",
+        desc: "I designed mobile app UIs for the Health Bridge App, focusing on intuitive navigation and user-friendly interfaces to improve patient engagement. I created web app UIs, logos, and various promotional materials, significantly boosting the brand’s online presence and user interaction.",
+        skills: ["FLutter","Adobe Photoshop", "Figma", "Corel Draw"]
+    },
+    {
+        role: "Web Designer",
+        company: "Agile Solutions",
+        date: "May 2019 - Sep 2019",
+        desc: "I designed and developed a responsive e-commerce website for a client, replicating PowerDentalUSA using HTML, CSS, and Bootstrap. I collaborated with the development team to integrate the design into the existing backend, enhancing overall user experience and interface consistency. I conducted usability testing to ensure the website's design met the client's requirements and provided a seamless user experience.",
+        skills: ["HTML", "CSS", "Bootstrap","My Sql", "Jquery"]
+    }
+]
+const Slugs=[
+    "typescript",
+    "spring",
+    "javascript",
+    "dart",
+    "java",
+    "react",
+    "angular",
+    "flutter",
+    "android",
+    "html5",
+    "css3",
+    "springboot",
+    "mongodb",
+    "selenium",
+    "nodedotjs",
+    "express",
+    "nextdotjs",
+    "prisma",
+    "mysql",
+    "amazonaws",
+    "postgresql",
+    "firebase",
+    "nginx",
+    "vercel",
+    "testinglibrary",
+    "jest",
+    "cypress",
+    "docker",
+    "git",
+    "jira",
+    "github",
+    "gitlab",
+    "visualstudiocode",
+    "androidstudio",
+    "sonarqube",
+    "figma",
+];
+export { Info, ProjectInfo, SkillInfo, ExperienceInfo, Slugs};
