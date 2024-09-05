@@ -1,3 +1,6 @@
+import { IconBrandGithub, IconBrandInstagram, IconBrandLeetcode, IconBrandLinkedin, IconBrandYoutube } from "@tabler/icons-react";
+
+
 const Info={
     name:"Muhammad Nauman",
     stack:["Associate Software Engineer","Flutter Developer",  "Competitive Programmer", "Open Source Contributor","Full Stack Web Developer"],
@@ -62,6 +65,13 @@ const SkillInfo = [
     }
 ]
 
+const socialLinks = [
+    { link: "https://github.com/naumanbutt2002", icon: IconBrandGithub },
+    { link: "https://www.linkedin.com/in/naumanbutt2002", icon: IconBrandLinkedin },
+    { link: "https://www.instagram.com/naumanbutt2002", icon: IconBrandInstagram }, 
+    { link: "https://www.youtube.com/@naumanbutt2002", icon: IconBrandYoutube },
+    { link: "https://www.leetcode.com/u/naumanbutt2002", icon: IconBrandLeetcode }
+];
 const ExperienceInfo = [
     {
         role: "UI/UX Designer",
@@ -116,4 +126,4 @@ const Slugs=[
     "sonarqube",
     "figma",
 ];
-export { Info, ProjectInfo, SkillInfo, ExperienceInfo, Slugs};
+export { Info, ProjectInfo,socialLinks, SkillInfo, ExperienceInfo, Slugs };
