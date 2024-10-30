@@ -3,7 +3,7 @@ import { IconBrandGithub, IconBrandInstagram, IconBrandLeetcode, IconBrandLinked
 
 const Info={
     name:"Muhammad Nauman",
-    stack:["Associate Software Engineer","Flutter Developer",  "Competitive Programmer", "Open Source Contributor","Full Stack Web Developer"],
+    stack:["Software Engineer","Flutter Developer",  "Competitive Programmer", "Open Source Contributor","Full Stack Web Developer"],
     bio:"I'm a passionate Associate Software Engineer skilled in mobile app development, and full-stack development with the MERN stack, with a strong passion for creating user-friendly applications and a commitment to continuous improvement. Let's connect and create something amazing together!"
 }
 const ProjectInfo=[
@@ -18,12 +18,30 @@ const ProjectInfo=[
     },
     {
         title:"Shop App ",
-        desc: "The Shop App Flutter is a fully functional e-commerce application developed using Flutter, Provider, and Dart. The application features a sleek and intuitive UI for browsing products, adding them to the cart, and managing orders. The app architecture is designed with scalability in mind, making it easy to extend and adapt for future features. It provides product listing by browsing a wide range of products with detailed descriptions and images. User can add products to your cart, update quantities, and remove items as needed. User can view detailed information about each product, including images, descriptions, and pricing. It provides efficient state management across the app using the Provider package.",
+        desc: "The Shop App Flutter is a fully functional e-commerce application developed using Flutter,Firebase, Provider, and Dart. The application features a sleek and intuitive UI for browsing products, adding them to the cart, and managing orders. The app architecture is designed with scalability in mind, making it easy to extend and adapt for future features. It provides product listing by browsing a wide range of products with detailed descriptions and images. User can add products to your cart, update quantities, and remove items as needed. User can view detailed information about each product, including images, descriptions, and pricing. It provides efficient state management across the app using the Provider package.",
         image:"shopping.png",
         live:false,
-        technologies:["Flutter","Provider", "Dart"],
+        technologies:["Flutter","Firebase CLI","Provider", "Dart"],
         link:"https://github.com/naumanbutt2002/shop_app_flutter",
         github:"https://github.com/naumanbutt2002/shop_app_flutter"
+    },
+    {
+        title:"DevNBlog Application",
+        desc: "DevNBlog is a comprehensive blog application developed using the MERN stack (MongoDB, Express, React, Node.js). It offers a dynamic and interactive experience, allowing users to manage posts, comments, and users through CRUD operations. The application also features JWT-based authentication and Google OAuth for secure user login, as well as a sleek dark mode interface and advanced search functionality. DevNBlog ensures a responsive and engaging community experience, designed to cater to both desktop and mobile users.",
+        image:"devnblog.png",
+        live:true,
+        technologies:["React","Express","Node.js","MongoDB","Firebase","React Router","JWT"],
+        link:"https://devnblog.up.railway.app/",
+        github:"https://github.com/naumanbutt2002/devnblog"
+    },
+    {
+        title:"RealEstateMart App",
+        desc: "RealEstateMart is a modern real estate marketplace built with the MERN stack (MongoDB, Express, React, Node.js) that enables users to buy, sell, and rent properties with ease. The platform integrates JWT-based authentication and Google OAuth to provide secure and seamless access for users. The app supports real-time CRUD operations for property management and offers advanced search functionalities to filter listings based on user preferences. The platform is designed to deliver a smooth and intuitive experience across both desktop and mobile devices.",
+        image:"realestatemart.png",
+        live:true,
+        technologies:["React","Express","Node.js","MongoDB","Firebase","React Router","JWT"],
+        link:"https://realestatemart.up.railway.app/",
+        github:"https://github.com/naumanbutt2002/realestatemart"
     },
     {
         title:"MERN Authentication",
@@ -74,11 +92,18 @@ const socialLinks = [
 ];
 const ExperienceInfo = [
     {
-        role: "UI/UX Designer",
+        role: "Web Developer",
+        company: "National Incubation Center",
+        date: "May 2024 - Sep 2024",
+        desc: "I  developed full-stack web applications using the MERN stack (MongoDB, Express.js, React, Node.js), enhancing user engagement by delivering a seamless and responsive interface. Created web application significantly boosting their online presence and user interaction. I implemented JWT-based authentication and Google OAuth for secure user login, ensuring data privacy and user authentication. I integrated Firebase for real-time database management and user authentication.",
+        skills: ["HTML","Tailwind CSS","React","Nodejs","MongoDB"]
+    },
+    {
+        role: "Flutter Developer",
         company: "Health Bridge",
         date: "Nov 2023 - April 2024",
-        desc: "I designed mobile app UIs for the Health Bridge App, focusing on intuitive navigation and user-friendly interfaces to improve patient engagement. I created web app UIs, logos, and various promotional materials, significantly boosting the brand’s online presence and user interaction.",
-        skills: ["FLutter","Adobe Photoshop", "Figma", "Corel Draw"]
+        desc: "I designed mobile app UIs for the Health Bridge App, focusing on intuitive navigation and user-friendly interfaces to improve patient engagement. I Built responsive and user-friendly mobile app using Flutter and Provider, Firebase CLI and Google OAuth.I Integrated Firebase for real-time database management, authentication, and push notifications, ensuring smooth data synchronization and secure user interactions.",
+        skills: ["FLutter","Dart","Firebase CLI","Provider", "Figma"]
     },
     {
         role: "Web Designer",
