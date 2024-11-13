@@ -25,6 +25,36 @@ const ProjectInfo=[
         link:"https://github.com/naumanbutt2002/shop_app_flutter",
         github:"https://github.com/naumanbutt2002/shop_app_flutter"
     },
+
+    {
+        title:"Spotify Clone App ",
+        desc: "The Spotify-like music streaming app is a full-featured mobile application developed using Flutter, Bloc for state management, Firebase for backend services, and clean architecture for maintainable code. It offers users a seamless music streaming experience with features such as sign-in and sign-up authentication, uploading songs to Firebase Storage, browsing and playing songs, and managing favorite tracks. The app includes a sleek and intuitive user interface, with light/dark mode options, user profile management, and the ability to display and play songs efficiently using Bloc. With its scalable architecture and dynamic design, this app provides a modern and immersive music streaming experience.",
+        image:"spotify.png",
+        live:false,
+        technologies:["Flutter","Firebase CLI","Bloc", "Dart","Clean Architecture"],
+        link:"https://github.com/naumanbutt2002/spotify",
+        github:"https://github.com/naumanbutt2002/spotify"
+    },
+
+    {
+        title:"Instagram Clone App ",
+        desc: "The Instagram clone, developed using Flutter and Dart, showcases a highly polished and responsive user interface that replicates key elements of the original Instagram app. The UI includes a modern Login Page and Sign-Up Page, designed with smooth transitions and a user-friendly layout. The Bottom Navigation Bar provides seamless navigation between different sections of the app, enhancing usability. Key screens include a visually engaging Home Page for browsing posts, a Search Page optimized for discovering new content, and a Chat Page designed for direct messaging. The Profile Page offers a clean and organized display of user information, while the Notification Page ensures users stay updated on interactions. Each screen is designed with attention to detail, ensuring a sleek, intuitive, and immersive experience, making this project a powerful showcase of Flutter’s capabilities in UI design.",
+        image:"instagram.png",
+        live:false,
+        technologies:["Flutter", "Dart"],
+        link:"https://github.com/naumanbutt2002/Instagram-Clone",
+        github:"https://github.com/naumanbutt2002/Instagram-Clone"
+    },
+    {
+        title:"Whatsapp UI App ",
+        desc: "The WhatsApp clone project, built using Flutter and Dart, features a clean and intuitive user interface that closely mirrors the original WhatsApp app. The UI includes a professional Splash Screen followed by a smooth transition into the Onboarding Page, which introduces users to the app. The Login Page is designed for simplicity and ease of use, allowing quick access to the platform. The OTP Screen ensures secure verification, while the Profile Info Screen allows users to set up their accounts with ease. Key features include the WhatsApp Home Screen, which provides a familiar chat interface, the Status Screen for viewing and sharing updates, and the Call Tab for managing voice and video calls. Each screen is crafted with attention to detail, providing a seamless and engaging user experience that captures the essence of WhatsApp’s design and functionality.",
+        image:"whatsapp.png",
+        live:false,
+        technologies:["Flutter", "Dart"],
+        link:"https://github.com/naumanbutt2002/WhatsApp-UI",
+        github:"https://github.com/naumanbutt2002/WhatsApp-UI"
+    },
+
     {
         title:"DevNBlog Application",
         desc: "DevNBlog is a comprehensive blog application developed using the MERN stack (MongoDB, Express, React, Node.js). It offers a dynamic and interactive experience, allowing users to manage posts, comments, and users through CRUD operations. The application also features JWT-based authentication and Google OAuth for secure user login, as well as a sleek dark mode interface and advanced search functionality. DevNBlog ensures a responsive and engaging community experience, designed to cater to both desktop and mobile users.",
